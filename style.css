@@ -31,7 +31,6 @@ a{
     line-height: 30px;
 }
 
-
 .hero-image {
     width: 45%;
 }
@@ -40,6 +39,20 @@ a{
     max-width: 450px;
 }
 #explore {
+    background-color: #0F3040;
+    color: #FFFFFF;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+}
+.product-text{
+       color: #0F3040;
+       text-align: center;
+}
+.product-section{
+       display: grid;
+}
+.product-button{
     background-color: #0F3040;
     color: #FFFFFF;
     border: none;
