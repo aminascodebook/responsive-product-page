@@ -48,13 +48,16 @@ a{
 .product-text{
        color: #0F3040;
        text-align: center;
-       padding: 10px;
+}
+.product-section{
+    padding: 20px;
 }
 .products{
        display: grid;
        grid-template-columns: 1fr 1fr 1fr 1fr;
        column-gap: 20px;
        row-gap: 20px;
+       padding: 10px;
 }
 .product{
     border:2px solid #587786;
@@ -86,4 +89,10 @@ a{
     .products{
         grid-template-columns: 1fr 1fr;
     }
+}
+.footer{
+    background-color:#0F3040;
+    padding: 20px;
+   display: flex;
+   justify-content:space-evenly;
 }
