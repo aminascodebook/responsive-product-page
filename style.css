@@ -48,9 +48,22 @@ a{
 .product-text{
        color: #0F3040;
        text-align: center;
+       padding: 10px;
 }
-.product-section{
+.products{
        display: grid;
+       grid-template-columns: 1fr 1fr 1fr 1fr;
+       column-gap: 20px;
+       row-gap: 20px;
+}
+.product{
+    border:2px solid #587786;
+    border-radius: 10px;
+    padding: 10px;
+}
+.price{
+    color: #722615;
+    padding: 5px;
 }
 .product-button{
     background-color: #0F3040;
@@ -58,4 +71,19 @@ a{
     border: none;
     padding: 12px 20px;
     border-radius: 8px;
+}
+.product-images{
+    height: 100px;
+    width: 100px;
+    border-radius: 15px;
+}
+@media (min-width:0px ) and (max-width:599px){
+    .products{
+        grid-template-columns: 1fr;
+    }
+}
+@media (min-width:600px ) and (max-width:899px){
+    .products{
+        grid-template-columns: 1fr 1fr;
+    }
 }
